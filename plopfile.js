@@ -9,7 +9,7 @@ export default function (
         type: 'list',
         name: 'componentType',
         message: 'Component type',
-        choices: ['composite', 'common'],
+        choices: ['common', 'composite'],
       },
       {
         type: 'input',
