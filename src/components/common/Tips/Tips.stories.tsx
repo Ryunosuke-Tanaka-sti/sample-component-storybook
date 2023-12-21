@@ -15,13 +15,20 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
   args: {
     text: 'Tips',
-    color: 'main',
+    color: 'blue',
   },
 };
 
 export const Secondary: Story = {
   args: {
     text: 'Tips',
-    color: 'error',
+    color: 'red',
   },
 };
+
+export const Third: Story = {
+  args: {
+    text: 'Tips',
+    color: 'green',
+  }
+}

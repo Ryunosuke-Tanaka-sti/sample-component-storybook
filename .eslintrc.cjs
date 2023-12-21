@@ -19,14 +19,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-    '@typescript-eslint',
-    'react-hooks',
-    'tailwindcss',
-    'import',
-    'unused-imports',
-  ],
+  plugins: ['react', '@typescript-eslint', 'tailwindcss', 'import', 'unused-imports'],
   rules: {
     'no-unused-vars': 'off',
     'unused-imports/no-unused-imports': 'error',
@@ -81,7 +74,7 @@ module.exports = {
       version: 'detect',
     },
     tailwindcss: {
-      config: 'tailwind.config.cjs',
+      config: './tailwind.config.cjs',
     },
   },
 };
