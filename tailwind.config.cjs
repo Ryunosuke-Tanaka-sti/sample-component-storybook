@@ -2,10 +2,5 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   presets: [require('./tailwind.config.deploy.cjs')],
-  safelist: [
-    {
-      pattern: /^(.*?)/,
-    },
-  ],
   plugins: [],
 };

@@ -1,8 +1,8 @@
-import { ColorCodeBorder } from 'src/constants/ColorCode';
+import { ColorCodeBorderStyles } from 'src/constants/ColorCode';
 
 type TipsProps = {
   text: string;
-  color: keyof typeof ColorCodeBorder;
+  color: keyof typeof ColorCodeBorderStyles;
 };
 
 export const Tips = (props: TipsProps) => {
@@ -11,7 +11,7 @@ export const Tips = (props: TipsProps) => {
     <span
       className={
         'inline-flex w-auto items-center justify-center rounded-full border py-1 px-4 font-kanit text-xs ' +
-        ColorCodeBorder[color]
+        ColorCodeBorderStyles[color]
       }
     >
       {text}

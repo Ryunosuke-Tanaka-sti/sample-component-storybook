@@ -56,6 +56,12 @@ module.exports = {
         pathGroupsExcludedImportTypes: ['react'],
       },
     ],
+    'tailwindcss/classnames-order': [
+      'warn',
+      {
+        callees: ['classnames', 'clsx', 'ctl', 'cva', 'tv'],
+      },
+    ],
   },
   overrides: [
     {
